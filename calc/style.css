@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.sub-container{
+    border: 2px solid blue;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: repeat(4, 66px);
+}
+
+input{
+    /* display: grid; */
+    grid-column: span 4;
+    text-align: right;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 31px;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 10px;
+    font-size: 23px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.low{
+    display: block;
+    grid-column: span 4;
+}
+
+.clear{
+    width: 7rem;
+}
+
+.equal{
+    width: 7rem;
+    
+}
